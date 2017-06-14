@@ -1,6 +1,27 @@
-# python-import-aliast-concurrency-bug
+# Python 3,6 import-alias-concurrency-bug
 
 Code to reproduce a bug in Python 3.6
+
+Using the following code in concurrent code will fail:
+
+```python
+import package.module as _alias
+```
+
+While the following just works fine:
+
+```python
+from package import module as _alias
+```
+
+or even just
+
+```python
+import package.module
+```
+
+
+## How to reproduce
 
 From a clone of the repo:
 
