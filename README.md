@@ -1,4 +1,4 @@
-# Python 3,6 import-alias-concurrency-bug
+# Python 3.6 import-alias-concurrency-bug
 
 Code to reproduce a bug in Python 3.6
 
