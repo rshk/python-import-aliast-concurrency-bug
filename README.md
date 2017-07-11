@@ -1,5 +1,9 @@
 # Python 3.6 import-alias-concurrency-bug
 
+See bug at: https://bugs.python.org/issue30814
+
+-----
+
 Code to reproduce a bug in Python 3.6
 
 Using the following code in concurrent code will fail:
